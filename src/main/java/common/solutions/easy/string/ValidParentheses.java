@@ -1,4 +1,4 @@
-package common.solutions.easy;
+package common.solutions.easy.string;
 
 public class ValidParentheses {
 //    Task №20 https://leetcode.com/problems/valid-parentheses

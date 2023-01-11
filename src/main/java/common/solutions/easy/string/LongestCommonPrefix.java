@@ -1,4 +1,4 @@
-package common.solutions.easy;
+package common.solutions.easy.string;
 
 public class LongestCommonPrefix {
 
