@@ -1,7 +1,9 @@
-public class Main {
+import common.solutions.easy.array.DuplicateZeros;
 
+public class Main {
     public static void main(String[] args) {
-        System.out.println("test");
+        DuplicateZeros duplicateZeros = new DuplicateZeros();
+        duplicateZeros.duplicateZeros(new int[]{1, 0, 2, 3, 0, 4, 5, 0});
     }
 
 }
