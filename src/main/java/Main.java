@@ -1,9 +1,10 @@
 import common.solutions.easy.array.DuplicateZeros;
+import common.solutions.easy.array.RemoveElement;
 
 public class Main {
     public static void main(String[] args) {
-        DuplicateZeros duplicateZeros = new DuplicateZeros();
-        duplicateZeros.duplicateZeros(new int[]{1, 0, 2, 3, 0, 4, 5, 0});
+        RemoveElement array = new RemoveElement();
+        System.out.println(array.removeElement(new int[]{3,2,2,3}, 3));
     }
 
 }
