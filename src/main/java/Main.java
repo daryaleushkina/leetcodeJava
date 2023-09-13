@@ -1,15 +1,15 @@
+import common.solutions.easy.string.EqualFrequency;
+import common.solutions.easy.string.IsAnagram;
+import common.solutions.easy.string.LengthOfLastWord;
 
-import common.solutions.easy.array.ValidMountainArray;
-
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.HashMap;
 
 public class Main {
-    public static void main(String[] args) {
-        ValidMountainArray validMountainArray = new ValidMountainArray();
-        System.out.println(validMountainArray.validMountainArray(new int[]{0,1,2,4,2,1}));
 
+
+    public static void main(String[] args) {
+        EqualFrequency equalFrequency = new EqualFrequency();
+        System.out.println(equalFrequency.equalFrequency("ddaccb"));
 
     }
 }
