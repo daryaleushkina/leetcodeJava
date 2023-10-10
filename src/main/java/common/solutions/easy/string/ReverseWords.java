@@ -6,14 +6,20 @@ import java.util.List;
 public class ReverseWords {
     // Task 557. Reverse Words in a String III https://leetcode.com/problems/reverse-words-in-a-string-iii/
     public String reverseWords(String s) {
-        String[] words = s.split(" ");
         StringBuilder ans = new StringBuilder();
-        for (String word : words) {
-            char[] str = word.toCharArray();
-            ans.append(revStr(str));
-            ans.append(' ');
+        int indexSpace = s.indexOf(" ", 0);
+        int prevIndexSpace = -1;
+
+        if (indexSpace <0)
+            return revStr(s.toCharArray());
+        while (indexSpace >= 0) {
+            ans.append(revStr(s.substring(prevIndexSpace+1, indexSpace).toCharArray()));
+            ans.append(" ");
+            prevIndexSpace = indexSpace;
+            indexSpace = s.indexOf(" ", prevIndexSpace+1);
         }
-        ans.deleteCharAt(ans.length() - 1);
+        ans.append(revStr(s.substring(prevIndexSpace+1).toCharArray()));
+
         return ans.toString();
     }
 
