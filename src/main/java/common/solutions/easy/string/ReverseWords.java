@@ -1,13 +1,10 @@
 package common.solutions.easy.string;
 
-import java.util.LinkedList;
-import java.util.List;
-
 public class ReverseWords {
     // Task 557. Reverse Words in a String III https://leetcode.com/problems/reverse-words-in-a-string-iii/
     public String reverseWords(String s) {
         StringBuilder ans = new StringBuilder();
-        int indexSpace = s.indexOf(" ", 0);
+        int indexSpace = s.indexOf(" ");
         int prevIndexSpace = -1;
 
         if (indexSpace <0)
