@@ -1,6 +1,6 @@
 package common.solutions.easy.string;
 
-public class ReverseWords {
+public class ReverseWords557 {
     // Task 557. Reverse Words in a String III https://leetcode.com/problems/reverse-words-in-a-string-iii/
     public String reverseWords(String s) {
         StringBuilder ans = new StringBuilder();
