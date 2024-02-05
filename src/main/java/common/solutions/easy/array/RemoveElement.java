@@ -1,7 +1,7 @@
 package common.solutions.easy.array;
 
 public class RemoveElement {
-//    Task №27. Remove Element https://leetcode.com/problems/remove-element/
+//    Task 27. Remove Element https://leetcode.com/problems/remove-element/
 
     public int removeElement(int[] nums, int val) {
         int count = nums.length;

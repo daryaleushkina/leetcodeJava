@@ -2,7 +2,7 @@ package common.solutions.easy.string;
 
 public class LongestCommonPrefix {
 
-    //  Task №14  https://leetcode.com/problems/longest-common-prefix/
+    //  Task 14  https://leetcode.com/problems/longest-common-prefix/
     public static String longestCommonPrefix_1(String[] strs) {
         StringBuilder prefix = new StringBuilder();
         StringBuilder temp = new StringBuilder();

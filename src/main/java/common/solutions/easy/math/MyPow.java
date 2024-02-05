@@ -1,7 +1,7 @@
 package common.solutions.easy.math;
 
 public class MyPow {
-    // Task №50. Pow(x, n) https://leetcode.com/problems/powx-n/description/
+    // Task 50. Pow(x, n) https://leetcode.com/problems/powx-n/description/
     public double myPow(double x, int n) {
         if (n == 0)
             return 1;

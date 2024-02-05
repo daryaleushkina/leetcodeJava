@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class ShuffleTheArray {
-//    Task №1470 https://leetcode.com/problems/shuffle-the-array/description/
+//    Task 1470 https://leetcode.com/problems/shuffle-the-array/description/
     public int[] shuffle(int[] nums, int n) {
         ArrayList<Integer> x = new ArrayList<>();
         ArrayList<Integer> y = new ArrayList<>();

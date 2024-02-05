@@ -1,7 +1,7 @@
 package common.solutions.easy.array;
 
 public class DivideAnArrayIntoSubarraysWithMinimumCostI {
-    //Task №3010. Divide an Array Into Subarrays With Minimum Cost I https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/
+    //Task 3010. Divide an Array Into Subarrays With Minimum Cost I https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i/description/
     public int minimumCost(int[] nums) {
         int ans = 0;
 

@@ -1,7 +1,7 @@
 package common.algorithms.matrixsort;
 
 public class BinarySearch {
-    // Task №704. BinarySearch https://leetcode.com/problems/binary-search/description/
+    // Task 704. BinarySearch https://leetcode.com/problems/binary-search/description/
     public int search(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;

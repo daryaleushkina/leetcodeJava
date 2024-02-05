@@ -1,7 +1,7 @@
 package common.solutions.easy.array;
 
 public class SearchInsertPosition {
-//    Task №35 https://leetcode.com/problems/search-insert-position
+//    Task 35 https://leetcode.com/problems/search-insert-position
     public int searchInsert(int[] nums, int target) {
         if (target < nums[0])
             return 0;

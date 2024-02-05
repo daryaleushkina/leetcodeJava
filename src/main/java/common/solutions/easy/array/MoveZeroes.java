@@ -3,7 +3,7 @@ package common.solutions.easy.array;
 import java.util.Arrays;
 
 public class MoveZeroes {
-    //    Task №283. Remove Element https://leetcode.com/problems/move-zeroes/description/
+    //    Task 283. Remove Element https://leetcode.com/problems/move-zeroes/description/
 
     public void moveZeroes(int[] nums) {
         int count = nums.length;

@@ -1,7 +1,7 @@
 package common.solutions.easy.array;
 
 public class PlusOne {
-    //    Task №66. Plus One  https://leetcode.com/problems/plus-one/
+    //    Task 66. Plus One  https://leetcode.com/problems/plus-one/
     public int[] plusOne(int[] digits) {
         int i = digits.length - 1;
         while (i >= 0)

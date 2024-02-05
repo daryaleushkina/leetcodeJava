@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class CheckIfExist {
-    //    Task №1346. Check If N and Its Double Exist  https://leetcode.com/problems/check-if-n-and-its-double-exist/
+    //    Task 1346. Check If N and Its Double Exist  https://leetcode.com/problems/check-if-n-and-its-double-exist/
 
 
     public void checkIfExist(int[] arr) {

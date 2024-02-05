@@ -1,7 +1,7 @@
 package common.solutions.easy.math;
 
 public class IsPerfectSquare {
-    // Task №367. Valid Perfect Square https://leetcode.com/problems/valid-perfect-square/description/
+    // Task 367. Valid Perfect Square https://leetcode.com/problems/valid-perfect-square/description/
     public boolean isPerfectSquare(int num) {
         if (num == 1)
             return true;

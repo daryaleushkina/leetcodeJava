@@ -1,7 +1,7 @@
 package common.solutions.easy.array;
 
 public class ValidMountainArray {
-    //    Task №941. Valid Mountain Array https://leetcode.com/problems/valid-mountain-array/
+    //    Task 941. Valid Mountain Array https://leetcode.com/problems/valid-mountain-array/
     public boolean validMountainArray(int[] arr) {
         if (arr.length < 3 || arr[0] >= arr[1])
             return false;
