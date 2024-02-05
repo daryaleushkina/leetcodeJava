@@ -1,4 +1,4 @@
-package common.solutions.easy.array;
+package common.solutions.easy.math;
 
 public class SqrtX {
 
