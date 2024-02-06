@@ -1,4 +1,4 @@
-package common.solutions.easy.math;
+package common.solutions.medium.math;
 
 public class MyPow {
     // Task 50. Pow(x, n) https://leetcode.com/problems/powx-n/description/

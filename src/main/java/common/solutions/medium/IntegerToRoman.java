@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class IntegerToRoman {
 
-    //    Task №12. Integer to Roman https://leetcode.com/problems/integer-to-roman
+    //    Task 12. Integer to Roman https://leetcode.com/problems/integer-to-roman
     public String intToRoman(int num) {
         String[] roman = new String[]{"M", "D", "C", "L", "X", "V", "I",};
         int[] nums = new int[]{1000, 500, 100, 50, 10, 5, 1};
