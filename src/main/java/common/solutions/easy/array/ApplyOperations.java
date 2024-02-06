@@ -3,7 +3,7 @@ package common.solutions.easy.array;
 import java.util.Arrays;
 
 public class ApplyOperations {
-    //    Task №2460. Remove Element https://leetcode.com/problems/apply-operations-to-an-array/
+    //    Task 2460. Remove Element https://leetcode.com/problems/apply-operations-to-an-array/
 
     public int[] applyOperations(int[] nums) {
         for (int i = 0; i < nums.length - 1; i++) {

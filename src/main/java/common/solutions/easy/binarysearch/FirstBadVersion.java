@@ -1,4 +1,4 @@
-package common.solutions.easy;
+package common.solutions.easy.binarysearch;
 
 public class FirstBadVersion {
     int firstBad = 6;
