@@ -1,4 +1,4 @@
-package common.solutions.easy;
+package common.solutions.easy.math;
 
 public class ThirdMax {
     // Task 414. Third Maximum Number https://leetcode.com/problems/third-maximum-number/
